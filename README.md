@@ -12,53 +12,52 @@ El proyecto utiliza Prolog para la lógica del juego y Python para la interfaz.
 
 - ### Windows:
 
- -> instalar "swi-prolog" y reiniciar el equipo:
-    
-     https://www.swi-prolog.org/download/stable
+  -> instalar "swi-prolog" y reiniciar el equipo:
+
+      https://www.swi-prolog.org/download/stable
 
 - ### Linux:
-  
- -> instalar "swi-prolog"...
-     
-   En distribuciones basadas en Debian/Ubuntu:
-   
-     sudo apt-get update
-   
-     sudo apt-get install swi-prolog
 
-   En distribuciones basadas en Red Hat/Fedora:
-    
-     sudo dnf install swi-prolog
- 
+  -> instalar "swi-prolog"...
+
+  En distribuciones basadas en Debian/Ubuntu:
+
+      sudo apt-get update
+
+      sudo apt-get install swi-prolog
+
+  En distribuciones basadas en Red Hat/Fedora:
+
+      sudo dnf install swi-prolog
 
 - ### Mac:
 
- -> Instalar SWI-Prolog utilizando Homebrew:
+  -> Instalar SWI-Prolog utilizando Homebrew:
 
-     brew install swi-prolog
-   
- ### Start
+      brew install swi-prolog
 
- Ahora utiliza la IDE de tu preferencia (recomendamos Visual Studio Code, con la extención de Python instalada), para ejecutar el archivo de Python. Estoo debería desplegar una nueva ventana donde se mostrará la interfaz del juego.
+### Start
+
+Ahora utiliza la IDE de tu preferencia (recomendamos Visual Studio Code, con la extención de Python instalada), para ejecutar el archivo de Python. Estoo debería desplegar una nueva ventana donde se mostrará la interfaz del juego.
 
 - NOTA: Recuerda que el archivo de Python (.py) y el de Prolog (.pl) deben de encontrarse en la misma carpeta de dirección para su correcta comunicación.
 
-*Para empezar el juego desde la terminal escribir el siguiente comando desde el directorio con ambos archivo:*
+_Para empezar el juego desde la terminal escribir el siguiente comando desde el directorio con ambos archivo:_
 
     python main.py
 
 Adicionalmente, se puede acceder individualmente a cada interface con los siguientes comandos:
 
- -> Interface 1 contra 1
+-> Interface 1 contra 1
 
     python game1vs1.py
 
- -> Interface 1 contra CPU
+-> Interface 1 contra CPU
 
     python game1vsPC.py
 
 ### Comentarios
 
-Es importante destacar que el archivo *game1vsPC.py* puede no terminar el proceso correctamente. 
+Es importante destacar que el archivo _game1vsPC.py_ puede no terminar el proceso correctamente.
 
 OJO: se recomienda cerrar la ventana manualmente.
