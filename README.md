@@ -2,6 +2,12 @@
 
 El proyecto consiste en la implementación de un juego “gato”/tic-tac-toe realizado con lógica puramente en Prolog y la implementación de una interfaz en Python.
 
+### Interface Preview
+
+<img src="./images/main.png" alt="Main Menu" width="210" height="300">
+<img src="./images/game.png" alt="Main Menu" width="210" height="300">
+<img src="./images/end.png" alt="Main Menu" width="210" height="300">
+
 ## Technologies used
 
 El proyecto utiliza Prolog para la lógica del juego y Python para la interfaz.
